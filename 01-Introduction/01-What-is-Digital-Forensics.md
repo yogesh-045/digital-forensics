@@ -1,4 +1,4 @@
-# Digital Forensics – Fundamentals
+# 🔎 Digital Forensics – Fundamentals
 
 ## 1. What is Digital Forensics?
 
@@ -49,7 +49,7 @@ The major objectives are:
 
 ---
 
-# 3. Digital Evidence
+# 💾 3. Digital Evidence
 
 ## What is Digital Evidence?
 
@@ -224,6 +224,8 @@ Example:
 ```
 This is the type of forensic image we will analyze in the Autopsy project.
 
+---
+
 # 10. Hashing
 
 Hashing is used to generate a unique-looking value from digital data.
@@ -266,6 +268,8 @@ Compare Hashes
 ```
 If the expected hash values match, this provides evidence that the data remained unchanged.
 
+---
+
 #  11. Chain of Custody
 
 Chain of Custody is the documented history of evidence from the moment it is collected until the investigation is completed.
@@ -297,6 +301,8 @@ Reported
 
 A proper chain of custody helps demonstrate that evidence was handled properly.
 
+---
+
 # 12. Metadata
 
 Metadata is information that describes another piece of data.
@@ -325,6 +331,8 @@ Type: Microsoft Word Document
 ```
 Metadata can provide useful investigative clues.
 
+---
+
 # 13. File System
 
 A file system controls how files are stored and organized on a storage device.
@@ -351,6 +359,8 @@ Important NTFS forensic artifacts include:
 
 These artifacts can provide information about file activity.
 
+---
+
 # 14. Deleted Files
 
 Deleting a file does not always mean that its data immediately disappears from the storage device.
@@ -375,6 +385,8 @@ Data may remain until overwritten
 ```
 Forensic tools can sometimes recover such information.
 
+---
+
 # 15. Windows Artifacts
 
 Windows systems contain many artifacts useful for forensic investigations.
@@ -394,6 +406,8 @@ Important examples include:
 | LNK Files          | File/application access information |
 | Jump Lists         | Recently accessed files/applications |
 | `$MFT`             | File system metadata |
+
+---
 
 # 16. Windows Event Logs
 
@@ -422,6 +436,8 @@ Important Security Event IDs
 
 These events can help reconstruct attacker activity.
 
+--- 
+
 # 17. Browser Forensics
 
 Browser artifacts can provide information about a user's web activity.
@@ -442,6 +458,8 @@ Supported browsers may include:
 - Microsoft Edge
 - Mozilla Firefox
 
+---
+
 # 18. Timeline Analysis
 
 Timeline analysis organizes events according to time.
@@ -456,6 +474,8 @@ Example:
 09:22 → External connection observed
 ```
 This helps investigators understand the sequence of events.
+
+---
 
 # 19. Indicators of Compromise (IOCs)
 
@@ -483,6 +503,8 @@ Finding:
 Hash matches a known malicious file
 ```
 
+---
+
 # 20. Digital Forensics vs Incident Response
 
 These concepts are related but different.
@@ -505,6 +527,8 @@ Collect
 - Examine
 - Analyze
 - Report
+
+---
 
 # 21. Digital Forensics Tools
 
@@ -534,7 +558,8 @@ Used for network traffic analysis.
 
 A collection of Windows forensic analysis tools.
 
-# 22. Autopsy
+
+#  22. Autopsy
 
 Autopsy is an open-source digital forensics platform.
 
@@ -571,6 +596,8 @@ Investigate Findings
      ↓
 Create Report
 ```
+---
+
 # 23. Example Forensic Investigation
 
 Suppose a suspicious document was downloaded on a Windows computer.
@@ -601,6 +628,7 @@ The investigator could follow this process:
         ↓
 12. Document findings
 ```
+---
 
 # 24. Key Terms to Remember
 
